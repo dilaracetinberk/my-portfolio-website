@@ -1,0 +1,28 @@
+
+  
+  @import url('https://fonts.googleapis.com/css2?family=Anton&family=Bowlby+One+SC&family=Montserrat:wght@300;500&family=Open+Sans:wght@300;600&family=Roboto:ital,wght@0,100;1,100;1,300&family=Rubik+Spray+Paint&family=Rubik+Vinyl&family=Source+Sans+Pro:wght@300;400&family=Work+Sans:wght@800&family=Zen+Dots&display=swap');
+
+
+  h1{
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 1.1;
+    margin: 0;
+    font-size: 3rem;
+  }
+  img {
+    display: block;
+    max-width: 100%;
+}
+
+p{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+  @media (min-width: 800px) {
+   h1{
+    font-size: 4.5rem;
+   }
+}
+
+
+
