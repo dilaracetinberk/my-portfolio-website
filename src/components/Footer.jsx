@@ -22,9 +22,9 @@ function Footer() {
            </Link>
           </li>
           <li className='social-list-item'>
-            <Link to='https://github.com/dilaracetinberk' className='social-list-link'>
+          <a href="mailto:dilaracetinberk@gmail.com" className='social-list-link'>
             <GoMail size={50}/>
-           </Link>
+           </a>
           </li>
         
       </ul>
