@@ -36,7 +36,6 @@
     }
 }
 
-/* General styles */
 
 body {
     background: var(--clr-light);
@@ -93,7 +92,7 @@ nav{
   }
   .navbar-link:hover {
     color: var(--clr-accent);
-  } */
+  } 
   
 .section-title {
     margin-bottom: .25em;
@@ -242,7 +241,7 @@ nav{
     text-align:center;
     align-items:center;
     grid-gap:1rem;
-    /* grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); */
+    
 } 
 
 
