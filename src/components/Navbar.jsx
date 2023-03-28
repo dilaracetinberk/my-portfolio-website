@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import {Link} from 'react-router-dom';
-import { HashLink } from 'react-router-hash-link';
+// import { HashLink } from 'react-router-hash-link';
 import { GiHamburgerMenu } from "react-icons/gi";
 
 function Navbar() {
@@ -25,19 +25,19 @@ function Navbar() {
           </Link>
           </li>
         <li className="md:ml-8 lg:text-xl text-[16px] cursor-pointer md:my-3 my-7">
-        <HashLink smooth to="/#about" className='navbar-a'> 
+          <a href='#about' className='navbar-a'>
             About
-          </HashLink>
+            </a>
             </li>
         <li className="md:ml-8 lg:text-xl text-[16px] cursor-pointer md:my-3 my-7">
-        <HashLink smooth to="/#projects" className='navbar-a'> 
+          <a href='#projects' className='navbar-a'>
             Projects
-          </HashLink>
+            </a>
             </li>
         <li className="md:ml-8 lg:text-xl text-[16px] cursor-pointer md:my-3 my-7">
-        <HashLink smooth to="/#footer" className='navbar-a'> 
+          <a href='#footer' className='navbar-a'>
             Contact
-          </HashLink>
+            </a>
             </li>
       </ul>
       
