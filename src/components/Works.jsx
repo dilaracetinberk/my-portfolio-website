@@ -99,10 +99,10 @@ function Works() {
             Portfolio Website
           </div>
           <div className='project-link'>
-            <a href='https://github.com/dilaracetinberk/portfolio'>
+            <a href='https://github.com/dilaracetinberk/my-portfolio-website'>
               <button type='button' className='font-semibold rounded-lg text-center mr-2 mb-2 '>CODE</button></a>
               <span> | </span>
-            <a href='https://portfolio-tan-tau-15.vercel.app/'>
+            <a href='https://dc-portfolio-website.vercel.app/'>
               <button type='button' className='font-semibold rounded-lg text-center mr-2 mb-2 '>DEMO</button></a>
           </div>
          </div>
