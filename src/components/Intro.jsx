@@ -12,7 +12,7 @@ function Intro() {
     whileInView={{ opacity: 1, scale: 1 }}
     viewport={{ once: false, amount: 0.5 }}
   >
-    <div className='intro font-sans'>
+    <div className='intro font-sans' id='home'>
         <h1 className='section-title'>Hi, I am <strong>Dilara Cetinberk</strong></h1>
         <p className="section-subtitle section-subtitle-intro">FRONT-END DEVELOPER</p>
         <img src={profile} alt='profile' className='intro-img'/>

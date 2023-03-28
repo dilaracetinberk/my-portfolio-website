@@ -1,5 +1,6 @@
 import React from 'react';
 // import {Link} from 'react-router-dom';
+import { motion } from 'framer-motion';
 import p1 from '../assets/p1.JPG';
 import p2 from '../assets/p2.JPG';
 import p3 from '../assets/p3.JPG';
@@ -9,7 +10,12 @@ import p6 from '../assets/p6.JPG';
 
 function Works() {
   return (
-    <div className='my-work'>
+    <motion.div
+    initial={{ opacity: 0, y: 20 }}
+      transition={{ duration: 0.7 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: false, amount: 0.2 }} >
+    <div className='my-work' id='projects'>
       <h2 className='section-title'>My Work</h2>
       <div className='portfolio'>
         <div className='portfolio-item'>
@@ -104,6 +110,7 @@ function Works() {
       </div>
       
     </div>
+    </motion.div>
   )
 }
 
