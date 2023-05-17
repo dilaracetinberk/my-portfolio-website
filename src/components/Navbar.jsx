@@ -8,7 +8,7 @@ function Navbar() {
   const [open, setOpen] = useState(false);
 
   return (
-    <nav className='navbar shadow-md'>
+    <nav className='navbar shadow-md bg-white fixed z-1000 '>
        <button
           type="button"
           onClick={() => setOpen(!open)}
