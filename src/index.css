@@ -305,9 +305,12 @@ font-size: var(--fs-h3);
     flex-wrap: wrap;
     justify-content: center;
 }
+  li {
+    margin-bottom: 0.2em;
+  }
 
 .project-card {
-    padding: 8%;
+    padding: 6%;
     
 }
 .project-card h2{
@@ -320,13 +323,29 @@ font-size: var(--fs-h3);
    
     
 }
-.detail-link p{
-    background: radial-gradient(circle, rgba(22,224,189,1) 0%, rgba(255,255,255,1) 100%);
+.detail-img {
+    max-width: 70%;
+    height: auto;
+    margin: auto;
 }
-.detail-link p:hover {
-    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(22,224,189,1) 100%);
-    transition: 0.7s;
+@media (max-width: 1200px) {
+    .detail-img {
+        max-width: 85%;
+        height: auto;
+        margin: auto;
+    }
 }
+@media (max-width: 600px) {
+    .detail-img {
+        max-width: 100%;
+        height: auto;
+        margin: auto;
+    }
+}
+.detail-info {
+    background-color:var(--clr-accent)
+}
+
 .detail-info .header {
     font-size: var(--fs-h3);
     font-weight: var(--fw-bold);

@@ -19,7 +19,7 @@ function About() {
 software development, I was accepted to a coding bootcamp being one of the 3%.</p>
            </div>
           <Link to='/resume'> 
-          <button type="button" className='resume-button max-w-xs '>See My Resume</button>
+          <button type="button" className='resume-button max-w-xs'>See My Resume</button>
           </Link>
            <img src={design} alt='about-me' className='about-me-img'/>
     </div>
