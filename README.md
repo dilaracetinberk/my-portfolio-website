@@ -11,6 +11,7 @@ You'll see the projects and information about me!
 - [React](https://reactjs.org/) - JS library
 - [Motion Library](https://www.framer.com/motion/) - For animation
 
-![website-ss](src/assets/ss.JPG)
+![preview](https://github.com/dilaracetinberk/my-portfolio-website/assets/97848364/4beadf87-dd3a-4c35-9083-ad1f18736281)
+
 
 
