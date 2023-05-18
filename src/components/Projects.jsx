@@ -4,7 +4,7 @@ import p3 from '../assets/p3.JPG';
 import p4 from '../assets/p4.PNG';
 import p5 from '../assets/p5.JPG';
 import p6 from '../assets/p6.JPG';
-import p7 from '../assets/p7.JPG';
+import ss from '../assets/ss.JPG';
 
 const Projects = [
   {
@@ -19,7 +19,7 @@ const Projects = [
     name: 'Star Wars API',
     linkDemo: 'https://final-case-practicum.vercel.app/',
     linkCode: 'https://github.com/dilaracetinberk/final-case-practicum',
-    img: p7,
+    img: ss,
   },
   {
     id: 3,
